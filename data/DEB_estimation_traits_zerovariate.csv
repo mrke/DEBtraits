@@ -1,0 +1,83 @@
+Data_label,Data_label_synonyms,Trait_name,Description,Description_full,Type,Units,Units_definition,Minimum,Maximum,Data_type,Temperature_Sensitive
+ab,"a_b,ab_T,ab_f",Age_birth,age at birth,age at birth (start of feeding),Numeric,d,day                     ,0,Inf,Zerovariate,1
+ae,a_e,Age_emergence,age at e,age at emergence (imago),Numeric,d,day                     ,0,Inf,Zerovariate,1
+ah,"a_h,ah_T",Age_hatching,age at h,age at hatching (leaving egg),Numeric,d,day                     ,0,Inf,Zerovariate,1
+aj,"a_j,aj_T",Age_metamorphosis,age at j,age at metamorphosis,Numeric,d,day                     ,0,Inf,Zerovariate,1
+am,"a_m,am_f,am_T",Age_maximum,age at death (life span),age at death (life span),Numeric,d,day                     ,0,Inf,Zerovariate,1
+ap,"tp,a_p,t_p,ap_f,ap_T",Age_puberty,age (or time since birth) at p,age (or time since birth) at puberty (start of allocation to reproduction),Numeric,d,day                     ,0,Inf,Zerovariate,1
+aR,a_R,Age_first_breeding,age at R,age at first breeding,Numeric,d,day                     ,0,Inf,Zerovariate,1
+as,a_x,Age_start_acceleration,age at s,age at start of acceleration,Numeric,d,day                     ,0,Inf,Zerovariate,1
+ax,a_x,Age_weaning,age at x,age at weaning (or fledging),Numeric,d,day                     ,0,Inf,Zerovariate,1
+dLb,,Change_length_birth,change in length at b,growth rate at birth (start of feeding),Numeric,cm/d,centimeter/ day,0,Inf,Zerovariate,1
+dLj,,Change_length_metamorphosis,change in length at j,growth rate at metamorphosis,Numeric,cm/d,centimeter/ day,0,Inf,Zerovariate,1
+dLp,,Change_length_puberty,change in length at p,growth rate at puberty (start of allocation to reproduction),Numeric,cm/d,centimeter/ day,0,Inf,Zerovariate,1
+dWd,,Change_dryweight,decrease in dry weight during starvation,decrease in dry weight during starvation,Numeric,g{dryweight}/d,gram per day,-Inf,Inf,Zerovariate,1
+dWdb,,Change_dryweight_birth,change in dry weight at b,change in dry weight at birth (start of feeding),Numeric,g{dryweight}/d,gram per day,-Inf,Inf,Zerovariate,1
+dWw_W,dW_W,Change_wetweight_weight,change in wet weight at W,change in wet weight at a given wet weight,Numeric,g{wet}/d,gram per day,-Inf,Inf,Zerovariate,1
+E_L,,Energy_content_at_L,total energy content at L,energy content at a given length,Numeric,J{content},joules,0,Inf,Zerovariate,0
+E0,E_0,Energy_content_at_0,energy content at 0,total energy in the egg/ total energy invested for development till birth,Numeric,J{content},joules,0,Inf,Zerovariate,0
+Eb,E_b,Energy_content_at_birth,energy content at b,energy content in the body at birth (start of feeding),Numeric,J{content},joules,0,Inf,Zerovariate,0
+Eh,E_h,Energy_content_at_hatch,energy content at h,energy content in the body at hatching,Numeric,J{content},joules,0,Inf,Zerovariate,0
+Ej,E_j,Energy_content_at_metamorphosis,energy content at j,energy content in the body at metamorphosis,Numeric,J{content},joules,0,Inf,Zerovariate,0
+EXx,E_Xx,Cumulated_food_energy_weaning ,cumulated food energy at x,cumulated energy content of food at weaning (or fledging),Numeric,J{ingested},joules,0,Inf,Zerovariate,0
+Fm,F_m,Maximum_Clearance_filtering_rate,maximum clearance (filtering) rate,maximum clearance (filtering) rate,Numeric,1{filtered}/d,per day,0,Inf,Zerovariate,1
+GSI,,Gonado_somatic_index,gonado-somatic index,gonado-somatic index,Numeric,,none,0,Inf,Zerovariate,1
+JX_L,,Food_Consumption_at_L,food consumption at L,food consumption at a given length,Numeric,g{food}/d,grams per day,0,Inf,Zerovariate,1
+JX_W,,Food_Consumption_at_W,food consumption at W,food consumption at a given weight,Numeric,g{food}/d,grams per day,0,Inf,Zerovariate,1
+JXi,J_Xi,Food_Consumption_at_i,food consumption at i,food consumption at ultimate state,Numeric,g{food}/d,grams per day,0,Inf,Zerovariate,1
+L_t,L,Length_specific_time,length at time t,length at time t,Numeric,cm,centimeter,0,Inf,Zerovariate,1
+L_W,,Length_specific_weight,length at weight,length at weight,Numeric,cm,centimeter,0,Inf,Zerovariate,0
+L0,L_0,Length_0,egg length,"length of an egg, typically not used for the start of embryonic development",Numeric,cm,centimeter,0,Inf,Zerovariate,0
+Lb,"L_b,Lb_f",Length_birth,length at b,length at birth (start of feeding),Numeric,cm,centimeter,0,Inf,Zerovariate,0
+Lh,L_h,Length_hatching,length at h,length at hatching (leaving egg),Numeric,cm,centimeter,0,Inf,Zerovariate,0
+Li,"L_i,Li_f",Length_ultimate,length at i,length at ultimate state,Numeric,cm,centimeter,0,Inf,Zerovariate,0
+Lj,L_j,Length_metamorphosis,length at j,length at metamorphosis,Numeric,cm,centimeter,0,Inf,Zerovariate,0
+Lp,"L_p,Lp_f",Length_puberty,length at p,length at puberty (start of allocation to reproduction),Numeric,cm,centimeter,0,Inf,Zerovariate,0
+LR,L_R,Length_reproduction,length at R,length at first breeding,Numeric,cm,centimeter,0,Inf,Zerovariate,0
+Ls,L_x,Length_start_acceleration,length at s,"length at start of acceleration, typically settlment of ",Numeric,cm,centimeter,0,Inf,Zerovariate,0
+Lx,L_x,Length_weaning,length at x,length at weaning (or fledging),Numeric,cm,centimeter,0,Inf,Zerovariate,0
+Ni,"N_i,Ni_f",Total_number_of_offspring_at_i,(total) number of offspring at i,(total) number of offspring at ultimate state,Numeric,#{offspring},number,0,Inf,Zerovariate,1
+pAi,p_Ai,Maximum_Assimilation_rate_energy,maximum assimilation rate (energy),maximum assimilation rate (energy),Numeric,J{assimilated}/d,joules per day,0,Inf,Zerovariate,1
+pXi,p_Xi,Maximum_Ingestion_rate_energy,maximum ingestion rate (energy),maximum ingestion rate (energy),Numeric,J{ingested}/d,joules per day,0,Inf,Zerovariate,1
+pXi_Wd,p_Xi,Maximum_ingestion_rate_at_Wd,maximum ingestion rate at Wd (energy),maximum ingestion rate at a given dry weight (energy),Numeric,J{ingested}/d,joules per day,0,Inf,Zerovariate,1
+R_L,,Reproduction_Rate_at_length,reproduction rate at length,reproduction rate at a given length,Numeric,#{offspring}/d,number per day,0,Inf,Zerovariate,1
+R_W,,Reproduction_Rate_at_weight,reproduction rate at weight,reproduction rate at a given weight,Numeric,#{offspring}/d,number per day,0,Inf,Zerovariate,1
+Ri,"R_i,Ri_f",Reproduction_Rate_at_i,reproduction rate at i,reproduction rate at ultimate state,Numeric,#{offspring}/d,number per day,0,Inf,Zerovariate,1
+tg,t_g,Gestation_time,gestation time,gestation time,Numeric,d,day                     ,0,Inf,Zerovariate,1
+tj,t_j,Time_metamorphosis,time at j,time at metamorphosis,Numeric,d,day                     ,0,Inf,Zerovariate,1
+tp,t_p,Time_puberty,time at p,time at puberty,Numeric,d,day                     ,0,Inf,Zerovariate,1
+tR,t_R,Time_reproduction,time at R,time since birth at reproduction,Numeric,d,day                     ,0,Inf,Zerovariate,1
+tx,t_x,Time_weaning,time at x,time since birth at weaning (or fledging),Numeric,d,day                     ,0,Inf,Zerovariate,1
+V0,V_0,Volume_start_0,volume at 0,volume at start of development,Numeric,cm3,cubic centimeter,0,Inf,Zerovariate,0
+Vb,"V_b,Vb_f",Volume_birth,volume at b,volume at birth (start of feeding),Numeric,cm3,cubic centimeter,0,Inf,Zerovariate,0
+Vi,"V_i,Vi_f",Volume_ultimate,volume at i,volume at ultimate state,Numeric,cm3,cubic centimeter,0,Inf,Zerovariate,0
+Vp,"V_p,Vp_f",Volume_puberty,volume at p,volume at puberty (start of allocation to reproduction),Numeric,cm3,cubic centimeter,0,Inf,Zerovariate,0
+WC0,,Carbon_weight_0,carbon weight at 0,carbon weight at start of development,Numeric,g{C},gram,0,Inf,Zerovariate,0
+WCi,,Carbon_weight_i,carbon weight at i,carbon weight at ultimate size,Numeric,g{C},gram,0,Inf,Zerovariate,0
+WCp,,Carbon_weight_p,carbon weight at p,carbon weight at puberty,Numeric,g{C},gram,0,Inf,Zerovariate,0
+Wd_L,,Weight_dry_length,dry weight at length,dry weight at a given length,Numeric,g{dry},gram,0,Inf,Zerovariate,0
+Wd_t,,Weight_dry_time,dry weight at age,dry weight at a given age,Numeric,g{dry},gram,0,Inf,Zerovariate,1
+Wd0,Wd_0,Weight_dry_0,dry weight at 0,dry weight at start of development,Numeric,g{dry},gram,0,Inf,Zerovariate,0
+Wdb,"Wd_b,Wdb_f",Weight_dry_birth,dry weight at b,dry weight at birth (start of feeding),Numeric,g{dry},gram,0,Inf,Zerovariate,0
+Wde,Wd_e,Weight_dry_emergence,dry weight at e,dry weight at emergence (imago),Numeric,g{dry},gram,0,Inf,Zerovariate,0
+Wdh,Wd_h,Weight_dry_hatching,dry weight at h,dry weight at hatching (leaving egg),Numeric,g{dry},gram,0,Inf,Zerovariate,0
+Wdi,Wd_i,Weight_dry_ultimate,dry weight at i,dry weight at ultimate state,Numeric,g{dry},gram,0,Inf,Zerovariate,0
+Wdj,Wd_j,Weight_dry_metamorphosis,dry weight at j,dry weight at metamorphosis,Numeric,g{dry},gram,0,Inf,Zerovariate,0
+Wdp,Wd_p,Weight_dry_puberty,dry weight at p,dry weight at puberty (start of allocation to reproduction),Numeric,g{dry},gram,0,Inf,Zerovariate,0
+WdR_L,,Gonad_weight_at_length,gonad dry weight at L,gonad dry weight at a given length L,Numeric,g{gonad},gram,0,Inf,Zerovariate,0
+WdR_Wd,,Gonad_weight_at_drymass,gonad dry weight at Wd,gonad dry weight at a given dry weight,Numeric,g{gonad},gram,0,Inf,Zerovariate,0
+Wds,Wd_s,Weight_dry_start_acceleration,dry weight at s,dry weight at start of acceleration,Numeric,g{dry},gram,0,Inf,Zerovariate,0
+Wdx,Wd_x,Weight_dry_weaning,dry weight at x,dry weight at weaning (or fledging),Numeric,g{dry},gram,0,Inf,Zerovariate,0
+WN0,,Nitrogen_weight_0,nitrogen weight at 0,nitrogen weight at start of development,Numeric,g{N},gram,0,Inf,Zerovariate,0
+Ww_L,W_L,Wet_weight_length,wet weight at length,wet weight at length,Numeric,g{wet},gram,0,Inf,Zerovariate,0
+Ww_t,"W_t, Wwt",Wet_weight_age,wet weight at age,wet weight at age,Numeric,g{wet},gram,0,Inf,Zerovariate,1
+Ww0,"W0,Ww_0",Wet_weight_0,wet weight at 0,wet weight at start of development,Numeric,g{wet},gram,0,Inf,Zerovariate,0
+Wwb,"Wb,Ww_b,Wwb_f",Wet_weight_birth,wet weight at b,wet weight at birth (start of feeding),Numeric,g{wet},gram,0,Inf,Zerovariate,0
+Wwe,"We,Ww_e",Wet_weight_emergence,wet weight at e,wet weight at emergence (imago),Numeric,g{wet},gram,0,Inf,Zerovariate,0
+Wwh,"Wh,Ww_h",Wet_weight_hatching,wet weight at h,wet weight at hatching (leaving egg),Numeric,g{wet},gram,0,Inf,Zerovariate,0
+Wwi,"Wi,Ww_i",Wet_weight_ultimate,wet weight at i,wet weight at ultimate state,Numeric,g{wet},gram,0,Inf,Zerovariate,0
+Wwj,"Wj,Ww_j",Wet_weight_metamorphosis,wet weight at j,wet weight at metamorphosis,Numeric,g{wet},gram,0,Inf,Zerovariate,0
+Wwp,"Wp,Ww_p",Wet_weight_puberty,wet weight at p,wet weight at puberty (start of allocation to reproduction),Numeric,g{wet},gram,0,Inf,Zerovariate,0
+WwR,"WR,Ww_R",Wet_weight_first_breeding,wet weight at R,wet weight at first breeding,Numeric,g{wet},gram,0,Inf,Zerovariate,0
+Wws,"Ws,Ww_s",Wet_weight_start_acceleration,wet weight at s,wet weight at start of acceleration,Numeric,g{wet},gram,0,Inf,Zerovariate,0
+Wwx,"Wx,Ww_x",Wet_weight_weaning,wet weight at x,wet weight at weaning (or fledging),Numeric,g{wet},gram,0,Inf,Zerovariate,0

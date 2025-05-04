@@ -1,0 +1,51 @@
+metadata:
+  title: '**Trait database for Dynamic Energy Budget theory*'
+  description: "**This database contains observations that play a role in estimating parameters for the Dynamic Energy Budget theory models or organismal energetics. At present only animals are included, covering most phyla."
+  doi: unknown
+  structure_URI: https://github.com/traitecoevo/traits.build
+  geo_location:
+    geo_location_place: unknown
+    geodetic_datum: EPSG:4326
+  language: en
+  related_identifiers:
+  - related_identifier_type: url 
+    identifier: https://github.com/traitecoevo/traits.build
+    relation_type: isCompiledBy
+    resource_type: dataset
+  - related_identifier_type: doi
+    identifier: .na
+    relation_type: isCitedBy
+    resource_type: publication-article  
+  - related_identifier_type: doi
+    identifier: .na
+    relation_type: isVersionOf
+    resource_type: dataset
+  references: "**publication associated with dataset"
+  publisher: unknown
+  publication_year: unknown
+  publication_date: unknown
+  license:
+    rights: CC-BY-4.0    
+    rights_holder: unknown
+    rights_URI: https://creativecommons.org/licenses/by/4.0/
+    description: Under this license, the material can be copied and redistributed in any medium or format. It can be remixed, transformed, and built upon for any purpose, even commercially. Re-users must give appropriate credit, provide a link to the license, and indicate if changes were made. Re-users may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+  subject:
+    subject_scheme: unknown
+    scheme_URI: unknown
+    value_URI:
+    - unknown
+  funding_reference:
+  - funder_name: unknown
+    award_IRI: unknown
+    award_number: unknown
+    award_title: unknown
+  creators: 
+  - last_name: Kearney
+    given_name: Michael
+    ORCID: unknown
+    affiliation: School of BioSciences, The University of Melbourne, Australia
+  - last_name: Briscoe
+    given_name: Natalie
+    ORCID: unknown
+    affiliation: School of Agriculture and Ecosystem Sciences, The University of Melbourne, Australia
+  contributors: .na

@@ -1,0 +1,580 @@
+traits:
+  description: Names and details of traits used to estimate Dynamic Energy Budget theory model parameters
+  type: list
+  elements:
+    ab:
+      label: Age_birth
+      description: age at birth (start of feeding)
+      type: numeric
+      units: d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    ae:
+      label: Age_emergence
+      description: age at emergence (imago)
+      type: numeric
+      units: d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    ah:
+      label: Age_hatching
+      description: age at hatching (leaving egg)
+      type: numeric
+      units: d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    aj:
+      label: Age_metamorphosis
+      description: age at metamorphosis
+      type: numeric
+      units: d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    am:
+      label: Age_maximum
+      description: age at death (life span)
+      type: numeric
+      units: d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    ap:
+      label: Age_puberty
+      description: age (or time since birth) at puberty (start of allocation to reproduction)
+      type: numeric
+      units: d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    aR:
+      label: Age_first_breeding
+      description: age at first breeding
+      type: numeric
+      units: d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    as:
+      label: Age_start_acceleration
+      description: age at start of acceleration
+      type: numeric
+      units: d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    ax:
+      label: Age_weaning
+      description: age at weaning (or fledging)
+      type: numeric
+      units: d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    dLb:
+      label: Change_length_birth
+      description: growth rate at birth (start of feeding)
+      type: numeric
+      units: cm/d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    dLj:
+      label: Change_length_metamorphosis
+      description: growth rate at metamorphosis
+      type: numeric
+      units: cm/d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    dLp:
+      label: Change_length_puberty
+      description: growth rate at puberty (start of allocation to reproduction)
+      type: numeric
+      units: cm/d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    dWd:
+      label: Change_dryweight
+      description: decrease in dry weight during starvation
+      type: numeric
+      units: g{dryweight}/d
+      allowed_values_min: -Inf
+      allowed_values_max: Inf
+    dWdb:
+      label: Change_dryweight_birth
+      description: change in dry weight at birth (start of feeding)
+      type: numeric
+      units: g{dryweight}/d
+      allowed_values_min: -Inf
+      allowed_values_max: Inf
+    dWw_W:
+      label: Change_wetweight_weight
+      description: change in wet weight at a given wet weight
+      type: numeric
+      units: g{wet}/d
+      allowed_values_min: -Inf
+      allowed_values_max: Inf
+    E_L:
+      label: Energy_content_at_L
+      description: energy content at a given length
+      type: numeric
+      units: J{content}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    E0:
+      label: Energy_content_at_0
+      description: total energy in the egg/ total energy invested for development
+            till birth
+      type: numeric
+      units: J{content}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Eb:
+      label: Energy_content_at_birth
+      description: energy content in the body at birth (start of feeding)
+      type: numeric
+      units: J{content}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Eh:
+      label: Energy_content_at_hatch
+      description: energy content in the body at hatching
+      type: numeric
+      units: J{content}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Ej:
+      label: Energy_content_at_metamorphosis
+      description: energy content in the body at metamorphosis
+      type: numeric
+      units: J{content}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    EXx:
+      label: 'Cumulated_food_energy_weaning '
+      description: cumulated energy content of food at weaning (or fledging)
+      type: numeric
+      units: J{ingested}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Fm:
+      label: Maximum_Clearance_filtering_rate
+      description: maximum clearance (filtering) rate
+      type: numeric
+      units: 1{filtered}/d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    GSI:
+      label: Gonado_somatic_index
+      description: gonado-somatic index
+      type: numeric
+      units: ''
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    JX_L:
+      label: Food_Consumption_at_L
+      description: food consumption at a given length
+      type: numeric
+      units: g{food}/d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    JX_W:
+      label: Food_Consumption_at_W
+      description: food consumption at a given weight
+      type: numeric
+      units: g{food}/d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    JXi:
+      label: Food_Consumption_at_i
+      description: food consumption at ultimate state
+      type: numeric
+      units: g{food}/d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    L_t:
+      label: Length_specific_time
+      description: length at time t
+      type: numeric
+      units: cm
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    L_W:
+      label: Length_specific_weight
+      description: length at weight
+      type: numeric
+      units: cm
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    L0:
+      label: Length_0
+      description: length of an egg, typically not used for the start of embryonic
+            development
+      type: numeric
+      units: cm
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Lb:
+      label: Length_birth
+      description: length at birth (start of feeding)
+      type: numeric
+      units: cm
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Lh:
+      label: Length_hatching
+      description: length at hatching (leaving egg)
+      type: numeric
+      units: cm
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Li:
+      label: Length_ultimate
+      description: length at ultimate state
+      type: numeric
+      units: cm
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Lj:
+      label: Length_metamorphosis
+      description: length at metamorphosis
+      type: numeric
+      units: cm
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Lp:
+      label: Length_puberty
+      description: length at puberty (start of allocation to reproduction)
+      type: numeric
+      units: cm
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    LR:
+      label: Length_reproduction
+      description: length at first breeding
+      type: numeric
+      units: cm
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Ls:
+      label: Length_start_acceleration
+      description: 'length at start of acceleration, typically settlment of '
+      type: numeric
+      units: cm
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Lx:
+      label: Length_weaning
+      description: length at weaning (or fledging)
+      type: numeric
+      units: cm
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Ni:
+      label: Total_number_of_offspring_at_i
+      description: (total) number of offspring at ultimate state
+      type: numeric
+      units: '#{offspring}'
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    pAi:
+      label: Maximum_Assimilation_rate_energy
+      description: maximum assimilation rate (energy)
+      type: numeric
+      units: J{assimilated}/d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    pXi:
+      label: Maximum_Ingestion_rate_energy
+      description: maximum ingestion rate (energy)
+      type: numeric
+      units: J{ingested}/d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    pXi_Wd:
+      label: Maximum_ingestion_rate_at_Wd
+      description: maximum ingestion rate at a given dry weight (energy)
+      type: numeric
+      units: J{ingested}/d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    R_L:
+      label: Reproduction_Rate_at_length
+      description: reproduction rate at a given length
+      type: numeric
+      units: '#{offspring}/d'
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    R_W:
+      label: Reproduction_Rate_at_weight
+      description: reproduction rate at a given weight
+      type: numeric
+      units: '#{offspring}/d'
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Ri:
+      label: Reproduction_Rate_at_i
+      description: reproduction rate at ultimate state
+      type: numeric
+      units: '#{offspring}/d'
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    tg:
+      label: Gestation_time
+      description: gestation time
+      type: numeric
+      units: d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    tj:
+      label: Time_metamorphosis
+      description: time at metamorphosis
+      type: numeric
+      units: d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    tp:
+      label: Time_puberty
+      description: time at puberty
+      type: numeric
+      units: d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    tR:
+      label: Time_reproduction
+      description: time since birth at reproduction
+      type: numeric
+      units: d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    tx:
+      label: Time_weaning
+      description: time since birth at weaning (or fledging)
+      type: numeric
+      units: d
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    V0:
+      label: Volume_start_0
+      description: volume at start of development
+      type: numeric
+      units: cm3
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Vb:
+      label: Volume_birth
+      description: volume at birth (start of feeding)
+      type: numeric
+      units: cm3
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Vi:
+      label: Volume_ultimate
+      description: volume at ultimate state
+      type: numeric
+      units: cm3
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Vp:
+      label: Volume_puberty
+      description: volume at puberty (start of allocation to reproduction)
+      type: numeric
+      units: cm3
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    WC0:
+      label: Carbon_weight_0
+      description: carbon weight at start of development
+      type: numeric
+      units: g{C}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    WCi:
+      label: Carbon_weight_i
+      description: carbon weight at ultimate size
+      type: numeric
+      units: g{C}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    WCp:
+      label: Carbon_weight_p
+      description: carbon weight at puberty
+      type: numeric
+      units: g{C}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wd_L:
+      label: Weight_dry_length
+      description: dry weight at a given length
+      type: numeric
+      units: g{dry}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wd_t:
+      label: Weight_dry_time
+      description: dry weight at a given age
+      type: numeric
+      units: g{dry}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wd0:
+      label: Weight_dry_0
+      description: dry weight at start of development
+      type: numeric
+      units: g{dry}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wdb:
+      label: Weight_dry_birth
+      description: dry weight at birth (start of feeding)
+      type: numeric
+      units: g{dry}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wde:
+      label: Weight_dry_emergence
+      description: dry weight at emergence (imago)
+      type: numeric
+      units: g{dry}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wdh:
+      label: Weight_dry_hatching
+      description: dry weight at hatching (leaving egg)
+      type: numeric
+      units: g{dry}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wdi:
+      label: Weight_dry_ultimate
+      description: dry weight at ultimate state
+      type: numeric
+      units: g{dry}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wdj:
+      label: Weight_dry_metamorphosis
+      description: dry weight at metamorphosis
+      type: numeric
+      units: g{dry}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wdp:
+      label: Weight_dry_puberty
+      description: dry weight at puberty (start of allocation to reproduction)
+      type: numeric
+      units: g{dry}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    WdR_L:
+      label: Gonad_weight_at_length
+      description: gonad dry weight at a given length L
+      type: numeric
+      units: g{gonad}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    WdR_Wd:
+      label: Gonad_weight_at_drymass
+      description: gonad dry weight at a given dry weight
+      type: numeric
+      units: g{gonad}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wds:
+      label: Weight_dry_start_acceleration
+      description: dry weight at start of acceleration
+      type: numeric
+      units: g{dry}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wdx:
+      label: Weight_dry_weaning
+      description: dry weight at weaning (or fledging)
+      type: numeric
+      units: g{dry}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    WN0:
+      label: Nitrogen_weight_0
+      description: nitrogen weight at start of development
+      type: numeric
+      units: g{N}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Ww_L:
+      label: Wet_weight_length
+      description: wet weight at length
+      type: numeric
+      units: g{wet}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Ww_t:
+      label: Wet_weight_age
+      description: wet weight at age
+      type: numeric
+      units: g{wet}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Ww0:
+      label: Wet_weight_0
+      description: wet weight at start of development
+      type: numeric
+      units: g{wet}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wwb:
+      label: Wet_weight_birth
+      description: wet weight at birth (start of feeding)
+      type: numeric
+      units: g{wet}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wwe:
+      label: Wet_weight_emergence
+      description: wet weight at emergence (imago)
+      type: numeric
+      units: g{wet}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wwh:
+      label: Wet_weight_hatching
+      description: wet weight at hatching (leaving egg)
+      type: numeric
+      units: g{wet}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wwi:
+      label: Wet_weight_ultimate
+      description: wet weight at ultimate state
+      type: numeric
+      units: g{wet}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wwj:
+      label: Wet_weight_metamorphosis
+      description: wet weight at metamorphosis
+      type: numeric
+      units: g{wet}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wwp:
+      label: Wet_weight_puberty
+      description: wet weight at puberty (start of allocation to reproduction)
+      type: numeric
+      units: g{wet}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    WwR:
+      label: Wet_weight_first_breeding
+      description: wet weight at first breeding
+      type: numeric
+      units: g{wet}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wws:
+      label: Wet_weight_start_acceleration
+      description: wet weight at start of acceleration
+      type: numeric
+      units: g{wet}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
+    Wwx:
+      label: Wet_weight_weaning
+      description: wet weight at weaning (or fledging)
+      type: numeric
+      units: g{wet}
+      allowed_values_min: 0.0
+      allowed_values_max: Inf
